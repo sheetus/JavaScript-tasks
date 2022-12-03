@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var n=prompt("enter a number");
+        var a=prompt("enter a list of numbers");
+        var x=prompt("check index if found");
+        // a.length==parseInt(n);
+        var tran=a.split('');
+        console.log(tran);
+        function check(a,x){
+            if(a.includes(x)==true){
+                console.log(a.indexOf(x));
+            }
+            else{
+                console.log(a.indexOf(x)+" because there isn’t exists");
+            }
+        }
+        console.log(check(a,x));
+
+        
+
+    </script>
+</body>
+</html>

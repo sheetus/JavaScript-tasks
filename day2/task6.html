@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var inp=prompt("write a string and see what happens");
+        // var firstLetters=inp.slice(0,2);//itiaswan
+        // console.log(firstLetters);
+        // var lasLetters=inp.slice(-2);
+        // console.log(lasLetters);
+        // var concat=firstLetters.concat(lasLetters);
+        if (inp.length>=2){
+            // function capitalize(f){
+            //     var cptz=f.charAt(0).toUpperCase()+f.slice(1);
+            // }
+            var firstLetters=inp.charAt(0).toUpperCase()+inp.slice(1,2);;
+            //itiaswan
+
+        console.log(firstLetters);
+        var lasLetters=inp.slice(-2);
+        console.log(lasLetters);
+        var concat=firstLetters.concat(lasLetters);
+        console.log(concat);
+        }
+        else{
+            console.log("");
+        }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var check=prompt("check if the integer palindrome?");
+var sp= check.split('');
+console.log(sp);
+// var rev=sp.reverse();
+        function chek(sp){
+    
+    
+    if(String(sp)===String(sp.reverse())){
+        console.log("yes");
+
+    }
+    else{
+        console.log("no")
+    }
+    
+};
+console.log(chek(sp));
+    </script>
+</body>
+</html>
