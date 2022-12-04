@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <button id="st"> open</button>
+    <script>
+        var win;
+        function op(){
+            win=window.open("file:///E:/web/iti%203months%20training/day3/txt.html" ,"_blank" ,"popup=yes")
+        }
+        document.getElementById("st").addEventListener("click",op);
+        setTimeout(
+            function clos(){
+                win.close();
+            },5000
+        )
+    </script>
+</body>
+</html>
