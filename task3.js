@@ -1,6 +1,6 @@
-var fNum=prompt("enter fnum");
-var sNum=prompt("enter sNum");
-var thNum=prompt("enter thNum");
+var fNum=prompt("enter first num");
+var sNum=prompt("enter  Second Num");
+var thNum=prompt("enter third Num");
 var desc=sNum*sNum-4*fNum*thNum;
 if(desc>0){
     r1=(-sNum+Math.sqrt(desc))/(2*fNum);
