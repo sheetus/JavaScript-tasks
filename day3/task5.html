@@ -6,18 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-     <button id="st"> open</button>
+    <!-- <button id="st" onclick="op()">OPen</button>
+    <button ></button> -->
     <script>
-        var win;
-        function op(){
-            win=window.open("file:///E:/web/iti%203months%20training/day3/txt.html" ,"_blank" ,"popup=yes")
-        }
-        document.getElementById("st").addEventListener("click",op);
-        setTimeout(
-            function clos(){
-                win.close();
-            },5000
-        )
+        
+         var neepage=window.document.open("newpage.html","","width=500 ,height=500")
+        neepage.document.write("type a message")
+    //   function op(){
+    //     var neepage=window.document.open("newpage.html","","width=500 ,height=500")
+    //     neepage.document.write("type a message")
+    //   }
+      function cls(){
+       neepage.close();
+      }
+      setTimeout(cls,5000);
     </script>
 </body>
 </html>
